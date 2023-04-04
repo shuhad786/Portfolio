@@ -39,11 +39,6 @@
   font-size: 2em;
 }
 
-.image-project {
-  width: 85vw;
-  height: 50vh;
-}
-
 .text-project {
   font-family: 'Alkatra', cursive;
   font-size: 2vw;
@@ -57,5 +52,5 @@
 }
 
 .carousel-indicators {
-  bottom: -20px;
+  bottom: 0px;
 }

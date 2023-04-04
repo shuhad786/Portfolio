@@ -13,8 +13,8 @@ const about = () => {
         Passionate about learning and constantly exploring new ideas to grow skills and share knowledge with others. Excited to join a dynamic team and contribute to business success through expertise and an innovative mindset.
       </p>
       
-      <section className='d-flex flex-column align-items-center h-auto w-100 mt-4 text-link d-lg-inline'>
-        <h2 className='text-tech-header'>Tech Stack</h2>
+      <section className='d-flex flex-column align-items-center h-auto w-100 mt-4 text-link'>
+        <h2 className='text-tech-header pe-4'>Tech Stack</h2>
         <ul className='d-flex justify-content-around mt-5 w-100'>
           <ul className=''>
             <li className='no-style text-tech'>Tools</li>
