@@ -17,11 +17,10 @@
       #185b7a 29%,
       #fe621a 67%,
       #ffd33c 100%
-  );
+    );
   background-size: auto auto;
   color: #fff;
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 4s linear infinite;
 }
