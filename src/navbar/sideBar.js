@@ -24,7 +24,7 @@ const navBar = () => {
 
             <li>
               <NavLink className='nav-link pe-2 mt-5' to='/project'>
-                <i className="fa-solid fa-laptop-file fa-beat-fade"></i><span className='text-style-sidebar text-light m-2 d-none d-lg-inline'>Projects</span>
+                <i className="fa-solid fa-laptop-file fa-fade"></i><span className='text-style-sidebar text-light m-2 d-none d-lg-inline'>Projects</span>
               </NavLink>
             </li>
 
