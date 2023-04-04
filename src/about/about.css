@@ -5,7 +5,7 @@
 }
 
 .about-section {
-  font-family: N;
+  font-family: Nunito, sans-serif;
 }
 
 .animate-character
@@ -19,11 +19,8 @@
     #ffd33c 100%
   );
   background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 4s linear infinite;
 }
@@ -35,34 +32,34 @@
 }
 
 .about-header {
-  font-family: 'Alkatra', cursive;
+  font-family: Alkatra, cursive;
   font-size: 7vw;
   font-weight: bolder;
 }
 
 .text-about {
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 1.4vw;
   font-weight: bold;
   color: whitesmoke;
 }
 
 .text-tech {
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 1.5vw;
   font-weight: bold;
   color: #fe621a;
 }
 
 .text-tech-header {
-  font-family: 'Alkatra', cursive;
+  font-family: Alkatra, cursive;
   font-size: 2vw;
   font-weight: bold;
   color: #fe621a;
 }
 
 .text-link {
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 1.2vw;
   font-weight: bold;
   color: whitesmoke;

@@ -5,21 +5,21 @@
 }
 
 .text-contact-header {
-  font-family: 'Alkatra', cursive;
+  font-family: Alkatra, cursive;
   font-size: 4vw;
   font-weight: bold;
   color: #091e34;
 }
 
 .text-contact {
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 1.4vw;
   font-weight: bold;
   color: #091e34;
 }
 
 .text-input {
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 1.3vw;
   font-weight: bold;
 }

@@ -40,17 +40,17 @@
 }
 
 .text-project {
-  font-family: 'Alkatra', cursive;
+  font-family: Alkatra, cursive;
   font-size: 2vw;
   color: #fe621a;
 }
 
 .text-description {
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 1.4vw;
-  color: rgb(231, 231, 231);
+  color: rgb(231 231 231);
 }
 
 .carousel-indicators {
-  bottom: 0px;
+  bottom: 0;
 }

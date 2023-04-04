@@ -30,8 +30,8 @@ const project = () => {
             <img src={ savvy } className="img-fluid" alt="Slide 1" />
             <div className="carousel-caption d-none d-md-block">
               <div className="btn-group">
-                <a href="https://github.com/shuhad786/Budget-app" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i class="fa-solid fa-square-up-right fa-beat"></i> GitHub Repo</a>
-                <a href="https://savvy-project-deploy.onrender.com" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i class="fa-solid fa-eye fa-beat"></i> Live Version</a>
+                <a href="https://github.com/shuhad786/Budget-app" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i className="fa-solid fa-square-up-right fa-beat"></i> GitHub Repo</a>
+                <a href="https://savvy-project-deploy.onrender.com" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i className="fa-solid fa-eye fa-beat"></i> Live Version</a>
               </div>
             </div>
           </div>
@@ -42,8 +42,8 @@ const project = () => {
           <img src={ covid } className="img-fluid" alt="Slide 2" />
           <div className="carousel-caption d-none d-md-block">
             <div className="btn-group">
-              <a href="https://github.com/shuhad786/Covid-19-world-status" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i class="fa-solid fa-square-up-right fa-beat"></i> GitHub Repo</a>
-              <a href="https://resilient-chimera-530486.netlify.app" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i class="fa-solid fa-eye fa-beat"></i> Live Version</a>
+              <a href="https://github.com/shuhad786/Covid-19-world-status" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i className="fa-solid fa-square-up-right fa-beat"></i> GitHub Repo</a>
+              <a href="https://resilient-chimera-530486.netlify.app" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i className="fa-solid fa-eye fa-beat"></i> Live Version</a>
             </div>
           </div>
         </div>
@@ -64,8 +64,8 @@ const project = () => {
           <img src= { portfolio } className="img-fluid" alt="Slide 4" />
           <div className="carousel-caption d-none d-md-block">
             <div className="btn-group">
-              <a href="https://github.com/shuhad786/My-portfolio-website" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i class="fa-solid fa-square-up-right fa-beat"></i> GitHub Repo</a>
-              <a href="https://shuhad786.github.io/My-portfolio-website" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i class="fa-solid fa-eye fa-beat"></i> Live Version</a>
+              <a href="https://github.com/shuhad786/My-portfolio-website" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i className="fa-solid fa-square-up-right fa-beat"></i> GitHub Repo</a>
+              <a href="https://shuhad786.github.io/My-portfolio-website" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i className="fa-solid fa-eye fa-beat"></i> Live Version</a>
             </div>
           </div>
         </div>
@@ -75,8 +75,8 @@ const project = () => {
           <img src= { list } className="img-fluid" alt="Slide 5" />
           <div className="carousel-caption d-none d-md-block">
             <div className="btn-group">
-              <a href="https://github.com/shuhad786/ToDoListApp" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i class="fa-solid fa-square-up-right fa-beat"></i> GitHub Repo</a>
-              <a href="https://shuhad786.github.io/ToDoListApp" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i class="fa-solid fa-eye fa-beat"></i> Live Version</a>
+              <a href="https://github.com/shuhad786/ToDoListApp" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i className="fa-solid fa-square-up-right fa-beat"></i> GitHub Repo</a>
+              <a href="https://shuhad786.github.io/ToDoListApp" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i className="fa-solid fa-eye fa-beat"></i> Live Version</a>
             </div>
           </div>
         </div>
@@ -86,16 +86,16 @@ const project = () => {
           <img src= { space } className="img-fluid" alt="Slide 6" />
           <div className="carousel-caption d-none d-md-block">
             <div className="btn-group">
-              <a href="https://github.com/shuhad786/space-traveler-hub" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i class="fa-solid fa-square-up-right fa-beat"></i> GitHub Repo</a>
-              <a href="https://inspiring-tulumba-f9e3e3.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i class="fa-solid fa-eye fa-beat"></i> Live Version</a>
+              <a href="https://github.com/shuhad786/space-traveler-hub" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i className="fa-solid fa-square-up-right fa-beat"></i> GitHub Repo</a>
+              <a href="https://inspiring-tulumba-f9e3e3.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"><i className="fa-solid fa-eye fa-beat"></i> Live Version</a>
             </div>
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <i class="fa-solid fa-circle-arrow-left fa-beat arrows"></i>
+        <i className="fa-solid fa-circle-arrow-left fa-beat arrows"></i>
         </button>
         <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <i class="fa-solid fa-circle-arrow-right fa-beat arrows"></i>
+        <i className="fa-solid fa-circle-arrow-right fa-beat arrows"></i>
           <span className="visually-hidden">Next</span>
         </button>
       </div>

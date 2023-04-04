@@ -40,9 +40,9 @@ const navBar = () => {
           </ul>
           <div className='mt-5'>
             <ul className='no-style d-flex justify-content-around p-0'>
-              <li><a href="https://www.linkedin.com/in/shuhad-loofer" target="_blank" rel="noopener noreferrer" className=""><i class="fa-brands fa-linkedin"></i></a></li>
-              <li><a href="https://github.com/shuhad786" target="_blank" rel="noopener noreferrer" className=""><i class="fa-brands fa-github"></i></a></li>
-              <li><a href="https://wellfound.com/u/shuhad-loofer" target="_blank" rel="noopener noreferrer" className=""><i class="fa-brands fa-angellist"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/shuhad-loofer" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/shuhad786" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i></a></li>
+              <li><a href="https://wellfound.com/u/shuhad-loofer" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-angellist"></i></a></li>
             </ul>
           </div>
         </div>

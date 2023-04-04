@@ -10,7 +10,7 @@
 }
 
 .fa-brands {
-  color: rgb(219, 218, 218);
+  color: rgb(219 218 218);
 }
 
 .no-style {
@@ -35,30 +35,20 @@ ul li:hover {
 }
 
 .text-style-sidebar {
-  font-family: 'Alkatra', cursive;
+  font-family: Alkatra, cursive;
 }
 
 .padding {
   padding-right: 0.2em;
-  animation: slideInRight 0.5s ease-in;
+  animation: slide-in-right 0.5s ease-in;
 }
 
-@keyframes slideInRight {
+@keyframes slide-in-right {
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(0);
   }
 }
-
-.color1 {color: #091e34;} 
-.color2 {color: #123e51;} 
-.color3 {color: #185b7a;} 
-.color4 {color: #2085a2;} 
-.color5 {color: #29b6c9;}
-.color6 {color: #00272f;}
-.color7 {color: #00548e;}
-.color8 {color: #fe621a;}
-.color9 {color: #ffd33c;}
-.color10 {color: #ffff98;}

@@ -5,7 +5,7 @@
 }
 
 .text-style {
-  font-family: 'Alkatra', cursive;
+  font-family: Alkatra, cursive;
   font-size: 7vw;
   font-weight: bolder;
 }
@@ -21,11 +21,8 @@
     #ffd33c 100%
   );
   background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 4s linear infinite;
   display: inline-block;
