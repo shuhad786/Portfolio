@@ -14,8 +14,8 @@ const about = () => {
       </p>
       
       <section className='d-flex flex-column align-items-center h-auto w-100 mt-4 text-link'>
-        <h2 className='text-tech-header'>Tech Stack</h2>
-        <ul className='d-flex justify-content-around mt-5 w-100 ps-5'>
+        <h2 className='text-tech-header pe-4'>Tech Stack</h2>
+        <ul className='d-flex justify-content-around mt-5 w-100'>
           <ul className=''>
             <li className='no-style text-tech'>Tools</li>
             <li className='text-start mt-4'>Node.js</li>

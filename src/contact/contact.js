@@ -46,7 +46,7 @@ const Contact = () => {
         </div>
         <div className="form-group m-3 text-input">
           <label htmlFor="message">Message:</label>
-          <textarea className="form-control" id="message" rows="6" value={message} onChange={(event) => setMessage(event.target.value)} placeholder="Send me a message!" />
+          <textarea className="form-control" id="message" rows="6" value={message} onChange={(event) => setMessage(event.target.value)} placeholder="Type your message here!" />
         </div>
         <button type="submit" className="btn btn-style text-input ms-3">Submit</button>
       </form>
