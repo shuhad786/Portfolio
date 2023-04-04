@@ -27,11 +27,11 @@
 .btn-style {
   border: none;
   background-color: #091e34;
-  color: #ffd33c; 
+  color: #ffd33c;
 }
 
 .btn-style:hover {
   background-color: #ffff98;
-  color: #091e34; 
+  color: #091e34;
   border-radius: 10%;
 }
