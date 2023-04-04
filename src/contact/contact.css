@@ -1,5 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?&family=Nunito:wght@300&display=swap');
 
-.text-style {
+.bg-contact {
+  background-color: #ffd33c;
+}
+
+.text-contact-header {
+  font-family: 'Alkatra', cursive;
+  font-size: 4vw;
+  font-weight: bold;
+  color: #091e34;
+}
+
+.text-contact {
   font-family: 'Nunito', sans-serif;
+  font-size: 1.4vw;
+  font-weight: bold;
+  color: #091e34;
+}
+
+.text-input {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+.btn-style {
+  border: none;
+  background-color: #091e34;
+  color: #ffd33c; 
+}
+
+.btn-style:hover {
+  background-color: #ffff98;
+  color: #091e34; 
+  border-radius: 10%;
 }

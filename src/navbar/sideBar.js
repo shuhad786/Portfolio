@@ -7,9 +7,9 @@ import { NavLink } from 'react-router-dom';
 const navBar = () => {
   return (
   	<nav className='container-fluid w-auto'>
-      <div className='row'>
+      <div className='row h-100'>
         <div className='col-auto min-vh-100 bg-sidebar padding'>
-          <ul className='mt-3 d-flex flex-column align-items-center'>
+          <ul className='no-style mt-3 d-flex flex-column align-items-center'>
             <li>
               <img className='portrait img-fluid' src={portrait} alt=''></img>
             </li>
