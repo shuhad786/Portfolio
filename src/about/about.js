@@ -35,14 +35,14 @@ const About = () => {
           <li className='text-start mt-2'>Capybara</li>
           <li className='text-start mt-2'>Selenium</li>
           <li className='text-start mt-2'>Jest</li>
-          <li className='text-start mt-2'>JWT (Json Web Token)</li>
+          <li className='text-start mt-2'>JWT (JSON Web Token)</li>
         </ul>
       </section>
 
       <section className='col-md-4 d-flex flex-column align-items-center mt-4 text-link'>
         <ul className='d-flex flex-column'>
           <li className='no-style text-tech'>Languages</li>
-          <li className='text-start mt-4'>HTML-5</li>
+          <li className='text-start mt-4'>-HTML5</li>
           <li className='text-start mt-2'>CSS-3</li>
           <li className='text-start mt-2'>Vanilla Js</li>
           <li className='text-start mt-2'>React Js</li>

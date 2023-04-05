@@ -25,7 +25,7 @@ const project = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <h5 className='text-project'>Budget App</h5>
-            <p className='text-description'>Savvy is an application that allows the user to keep track of expenditures and to catalog the type of expense it will fall under. Built with: ruby on rails.</p>
+            <p className='text-description'>Savvy is an application that allows the user to track expenditures and catalog the type of expense it will fall under. Built with: ruby on rails.</p>
             <img src={ savvy } className="img" alt="Slide 1" />
             <div className="carousel-caption d-none d-md-block">
               <div className="btn-group">
@@ -37,7 +37,7 @@ const project = () => {
         </div>
         <div className="carousel-item">
           <h5 className='text-project'>Covid-19 World Status</h5>
-          <p className='text-description'>This project is a database w ith an API that displays all the information about the world statistics of COVID-19 and allows the user to select a country to see all the stats available in that region or city. Built with: React-js and Redux</p>
+          <p className='text-description'>This project is a database with an API that displays all the information about the world statistics of COVID-19 and allows the user to select a country to see all the stats available in that region or city. Built with: React-js and Redux</p>
           <img src={ covid } className="img" alt="Slide 2" />
           <div className="carousel-caption d-none d-md-block">
             <div className="btn-group">
@@ -59,7 +59,7 @@ const project = () => {
         </div>
         <div className="carousel-item">
           <h5 className='text-project'>My Portfolio</h5>
-          <p className='text-description'>Deployment of my portfolio in Microverse, where a Figma template is used and to recreate a chosen design as the Portfolio everything was created with Html, CSS and JavaScript.</p>
+          <p className='text-description'>Deployment of my portfolio in Microverse, where a Figma template is used and to recreate a chosen design as the Portfolio everything was created with HTML, CSS, and JavaScript.</p>
           <img src= { portfolio } className="img" alt="Slide 4" />
           <div className="carousel-caption d-none d-md-block">
             <div className="btn-group">
@@ -69,8 +69,8 @@ const project = () => {
           </div>
         </div>
         <div className="carousel-item p-5">
-          <h5 className='text-project'>ToDoListApp</h5>
-          <p className='text-description'>Create a to do list app with crud functionality</p>
+          <h5 className='text-project'>To-do List App</h5>
+          <p className='text-description'>Create a to-do list app with crud functionality</p>
           <img src= { list } className="img" alt="Slide 5" />
           <div className="carousel-caption d-none d-md-block">
             <div className="btn-group">
