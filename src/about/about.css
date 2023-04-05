@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?&family=Nunito:wght@300&display=swap');
 
+.m {
+  margin-left: 10em;
+  height: 100vh;
+}
+
 .bg-about {
-  background-color: #185b7a;
+  background-color: #1b1b1b;
+  min-height: auto;
 }
 
 .about-section {
@@ -14,15 +20,19 @@
 
     linear-gradient(
       -225deg,
-      #091e34 0%,
-      #185b7a 29%,
-      #fe621a 67%,
+      #000 0%,
+      #1b1b1b 29%,
+      #ffd600 67%,
       #ffd33c 100%
     );
-  background-size: auto auto;
-  color: #fff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   animation: textclip 4s linear infinite;
 }
 
@@ -40,7 +50,7 @@
 
 .text-about {
   font-family: Nunito, sans-serif;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   font-weight: bold;
   color: whitesmoke;
 }
@@ -64,4 +74,16 @@
   font-size: 1.2vw;
   font-weight: bold;
   color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+  .m {
+    margin-left: 11em;
+    height: 100vh;
+    padding-top: 5em;
+  }
+
+  .bg-about {
+    min-height: 100%;
+  }
 }

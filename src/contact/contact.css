@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?&family=Nunito:wght@300&display=swap');
 
+.c {
+  margin-left: 10em;
+  height: 100vh;
+}
+
 .bg-contact {
-  background-color: #ffd33c;
+  background-color: #fff023;
 }
 
 .text-contact-header {
   font-family: Alkatra, cursive;
   font-size: 4vw;
   font-weight: bold;
-  color: #091e34;
+  color: black;
 }
 
 .text-contact {
   font-family: Nunito, sans-serif;
   font-size: 1.4vw;
   font-weight: bold;
-  color: #091e34;
+  color: black;
 }
 
 .text-input {
@@ -24,14 +29,50 @@
   font-weight: bold;
 }
 
-.btn-style {
+.btn-style:hover {
   border: none;
-  background-color: #091e34;
-  color: #ffd33c;
+  background-color: black;
+  color: #fff023;
 }
 
-.btn-style:hover {
-  background-color: #ffff98;
-  color: #091e34;
+.btn-style {
+  background-color: #fff023;
+  color: black;
+  border: black solid 2px;
   border-radius: 10%;
+}
+
+@media (max-width: 768px) {
+  .c {
+    margin-left: 7em;
+    height: 100vh;
+  }
+
+  .bg-contact {
+    min-height: 100%;
+  }
+
+  input::placeholder {
+    font-size: 0.5em;
+    font-weight: bold;
+  }
+  
+  textarea::placeholder {
+    font-size: 0.5em;
+    font-weight: bold;
+  }
+
+  .text-contact-header {
+    font-size: 5vw;
+  }
+  
+  .text-contact {
+    font-size: 2vw;
+  }
+  
+  .text-input {
+    font-family: Nunito, sans-serif;
+    font-size: 1.3vw;
+    font-weight: bold;
+  }
 }

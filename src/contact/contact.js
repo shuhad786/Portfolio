@@ -32,7 +32,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="container-fluid d-flex flex-column justify-content-center align-items-center p-5 bg-contact">
+    <div className="container-fluid c d-flex flex-column justify-content-center align-items-center p-5 bg-contact">
       <h1 className="text-contact-header">Contact Me!</h1>
       <p className="text-contact">Leave me a message below!</p>
       <form className="" onSubmit={handleSubmit}>

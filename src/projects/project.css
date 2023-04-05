@@ -1,48 +1,54 @@
 .carousel-indicators li[data-bs-slide-to="0"] {
-  background-color: #fe621a;
+  background-color: #fff023;
 }
 
 .carousel-indicators li[data-bs-slide-to="1"] {
-  background-color: #fe621a;
+  background-color: #fff023;
 }
 
 .carousel-indicators li[data-bs-slide-to="2"] {
-  background-color: #fe621a;
+  background-color: #fff023;
 }
 
 .carousel-indicators li[data-bs-slide-to="3"] {
-  background-color: #fe621a;
+  background-color: #fff023;
 }
 
 .carousel-indicators li[data-bs-slide-to="4"] {
-  background-color: #fe621a;
+  background-color: #fff023;
 }
 
 .carousel-indicators li[data-bs-slide-to="5"] {
-  background-color: #fe621a;
+  background-color: #fff023;
+}
+
+.img {
+  height: auto;
+  max-width: 100%;
 }
 
 .bg-project {
-  background-color: #00548e;
+  background: #1b1b1b;
+  margin-left: 10em;
 }
 
 .btn-group {
-  background-color: #185b7a;
+  background-color: #1b1b1b;
 }
 
 .fa-beat {
-  color: #29b6c9;
+  color: #fff023;
 }
 
 .arrows {
-  color: #fe621a;
+  color: #fff023;
   font-size: 2em;
 }
 
 .text-project {
   font-family: Alkatra, cursive;
   font-size: 2vw;
-  color: #fe621a;
+  color: #fff023;
 }
 
 .text-description {
@@ -53,4 +59,16 @@
 
 .carousel-indicators {
   bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .p {
+    margin-left: 10em;
+    height: 100vh;
+    padding-top: 5em;
+  }
+
+  .bg-project {
+    min-height: 100%;
+  }
 }

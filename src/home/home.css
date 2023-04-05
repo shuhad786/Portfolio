@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 
+.h {
+  margin-left: 10.3em;
+  min-height: 100vh;
+}
+
 .bg-main {
-  background-color: #185b7a;
+  background-color: #1b1b1b;
+  min-height: 100vh;
 }
 
 .text-style {
   font-family: Alkatra, cursive;
-  font-size: 7vw;
+  font-size: 8vw;
   font-weight: bolder;
 }
 
@@ -16,21 +22,36 @@
 
     linear-gradient(
       -225deg,
-      #091e34 0%,
-      #185b7a 29%,
-      #fe621a 67%,
+      #000 0%,
+      #1b1b1b 29%,
+      #ffd600 67%,
       #ffd33c 100%
     );
-  background-size: auto auto;
-  color: #fff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   animation: textclip 4s linear infinite;
-  display: inline-block;
 }
 
 @keyframes textclip {
   to {
     background-position: 200% center;
+  }
+}
+
+@media (max-width: 768px) {
+  .h {
+    margin-left: 10em;
+    height: 100vh;
+    padding-top: 5em;
+  }
+
+  .bg-main {
+    min-height: 100%;
   }
 }

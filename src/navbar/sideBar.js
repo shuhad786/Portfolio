@@ -1,16 +1,14 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import portrait from '../images/HeadShot.jpg'
 import './sideBar.css'
 import { NavLink } from 'react-router-dom';
 
 const navBar = () => {
   return (
-  	<nav className='container-fluid w-auto'>
+  	<nav className='container-fluid position-fixed top-0 bottom-0 w-auto'>
       <div className='row h-100'>
-        <div className='col-auto min-vh-100 bg-sidebar padding'>
+        <div className='bg-sidebar'>
           <ul className='no-style mt-3 d-flex flex-column align-items-center mb-5'>
-              <img className='portrait' src={portrait} alt=''></img>
             <li>
               <h4 className='mt-5 w-auto pe-2 text-style-portfolio color8'>My Portfolio</h4>
             </li>
