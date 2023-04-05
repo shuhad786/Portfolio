@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 
 .bg-sidebar {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
 }
 
 .fa-fade {
@@ -21,13 +21,6 @@
 
 ul li:hover {
   cursor: pointer;
-}
-
-.portrait {
-  width: 100px;
-  height: 100px;
-  border-radius: 20%;
-  padding: 1em;
 }
 
 .text-style-portfolio {

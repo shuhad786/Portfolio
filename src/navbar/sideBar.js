@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const navBar = () => {
   return (
-  	<nav className='container-fluid position-fixed top-0 bottom-0 w-auto'>
+  	<nav className='container-fluid s position-fixed top-0 bottom-0 w-auto'>
       <div className='row h-100'>
         <div className='bg-sidebar'>
           <ul className='no-style mt-3 d-flex flex-column align-items-center mb-5'>

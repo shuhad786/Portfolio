@@ -25,6 +25,7 @@
 .img {
   height: auto;
   max-width: 100%;
+  padding: 5rem;
 }
 
 .bg-project {
@@ -70,5 +71,9 @@
 
   .bg-project {
     min-height: 100%;
+  }
+
+  .img {
+    padding: 0;
   }
 }
